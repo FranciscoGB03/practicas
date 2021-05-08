@@ -1,0 +1,12 @@
+.text-titulos{
+    color: var(--text_titulos);
+}
+.navbar-background{
+    background: var(--bg-navbar);
+}
+.text-titulo-tabla{
+    color: var(--text_titulo_tabla);
+}
+.border-tabla{
+    border-color:var(--border_tabla);
+}
