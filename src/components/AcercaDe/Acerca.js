@@ -7,6 +7,7 @@ const Acerca =()=>{
         <Template>
             <div>
                 {i18next.t('acerca:prueba')}
+                <span></span>
             </div>
         </Template>
     );
