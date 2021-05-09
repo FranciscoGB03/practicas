@@ -5,9 +5,11 @@ import Template from '../Template/Template';
 const Acerca =()=>{
     return(
         <Template>
-            <div>
+            <div className="container mt-5 bg-primary text-white">
+                <div className="card">
                 {i18next.t('acerca:prueba')}
                 <span></span>
+                </div>
             </div>
         </Template>
     );
