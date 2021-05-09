@@ -6,7 +6,7 @@ const Acerca =()=>{
     return(
         <Template>
             <div className="container mt-5 bg-primary text-white">
-                <div className="card">
+                <div className="">
                 {i18next.t('acerca:prueba')}
                 <span></span>
                 </div>
