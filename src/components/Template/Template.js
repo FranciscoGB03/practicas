@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import ModalLogin from './ModalLogin';
 
 function Template(props) {
     return (
@@ -8,6 +9,7 @@ function Template(props) {
             <Navbar/>
             {props.children}
             <Footer/>
+            <ModalLogin/>
         </div>
     );
 }

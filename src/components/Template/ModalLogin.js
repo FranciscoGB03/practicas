@@ -5,7 +5,7 @@ import {attemp, creaSesion, loginTrabajador} from "../../services/authService";
 import {useTranslation} from "react-i18next";
 
 
-export const ModalLogin = ({ver_modal, setVerModalCh, setPermisosOk}) => {
+const ModalLogin = ({ver_modal, setVerModalCh, setPermisosOk}) => {
     //|------State------|//
     const [t] = useTranslation(['navbar'])
     const [username, setUsername] = useState('');
@@ -163,3 +163,4 @@ const Footer = ({t, single_or_multi, attempLogin, loginTrabajadorSeleccionado}) 
         </div>
     );
 };
+export default ModalLogin;

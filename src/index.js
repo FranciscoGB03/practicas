@@ -14,7 +14,7 @@ import './styles/animate.css'
 import './styles/estilos.css';
 import './styles/mdb.css';
 import './styles/colores.css';
-import './styles/gelita.css';
+import './styles/personalizados.css';
 import './styles/base.css';
 import './styles/theme.css';
 //|------./Estilos propios------|//

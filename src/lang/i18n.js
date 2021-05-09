@@ -4,7 +4,6 @@ import admin_es from './es/admin.json';
 import catalogos_es from './es/catalogos.json';
 import general_es from './es/general.json';
 import navbar_es from './es/navbar.json';
-import operaciones_es from './es/operaciones.json';
 //|------./Español------|//
 //|------Ingles------|//
 import general_en from './en/general.json';
@@ -26,8 +25,7 @@ i18next.init({
             admin:admin_es,
             catalogos: catalogos_es,
             general: general_es,
-            navbar: navbar_es,
-            operaciones:operaciones_es
+            navbar: navbar_es
             },
         en: {
             general: general_en,

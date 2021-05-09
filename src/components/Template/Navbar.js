@@ -1,7 +1,6 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
 import {FaHome} from "react-icons/fa";
-import {ModalLogin} from "./ModalLogin";
 import Avatar from "./Avatar";
 import $ from 'jquery';
 import {ITEMS_IZQUIERDA, ITEMS_DERECHA} from "./Navbar.data";
@@ -27,7 +26,7 @@ function Navbar() {
                 <Izquierda/>
                 <Derecha/>
             </div>
-            <ModalLogin/>
+           
         </nav>
     );
 };
