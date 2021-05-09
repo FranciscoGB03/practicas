@@ -1,2 +1,2 @@
-# practicas
-Proyecto de practicas
+# prácticas
+Proyecto de prácticas
